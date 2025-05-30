@@ -1,0 +1,13 @@
+def sumar(a, b):
+    return a + b
+
+def calcular_area(base, altura):
+    resultado = (base * altura) / 2
+    return resultado
+
+base = float(input("Ingresa la base del triángulo: "))
+altura = float(input("Ingresa la altura del triángulo: "))
+
+resultado = calcular_area(base, altura)
+
+print(f"El área del triángulo es: {resultado}")
